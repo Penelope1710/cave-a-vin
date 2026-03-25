@@ -2,6 +2,7 @@ package fr.eni.cave.bll;
 
 import fr.eni.cave.bo.Client;
 import fr.eni.cave.dal.ClientRepository;
+import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,7 @@ public class ClientServiceImpl implements ClientService {
 
     private ClientRepository clientRepository;
 
+    @Transactional
     @Override
     public void ajouter(Client c) {
 

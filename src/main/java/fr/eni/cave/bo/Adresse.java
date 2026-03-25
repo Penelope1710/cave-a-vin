@@ -7,9 +7,6 @@ import lombok.*;
 @AllArgsConstructor
 @Data
 @Builder
-//pour éviter les boucles infinies
-@ToString(exclude = {"client"})
-@EqualsAndHashCode(exclude = {"client"})
 
 @Entity
 @Table(name = "CAV_ADDRESS")
@@ -29,6 +26,4 @@ public class Adresse {
     @Column(name = "CITY", nullable = false, length = 150)
     private String ville;
 
-    @OneToOne(mappedBy = "address")
-    private Client client;
 }
