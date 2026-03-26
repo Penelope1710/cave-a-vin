@@ -24,4 +24,8 @@ public class LignePanier {
 
     @Column(name = "PRICE", precision = 2)
     private float prix;
+
+    @ManyToOne
+    @JoinColumn(name = "BOTTLE_ID")
+    private Bouteille bouteille;
 }
