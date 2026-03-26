@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Getter
+@Setter
+@ToString
 @EqualsAndHashCode(of = {"id", "nom", "petillant", "millesime", "quantite", "prix"})
 @Builder
 
@@ -34,12 +36,11 @@ public class Bouteille {
     @Column(name = "PRICE", precision = 2)
     private float prix;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "REGION_ID")
     private Region region;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "COLOR_ID")
     private Couleur couleur;
-
 }
