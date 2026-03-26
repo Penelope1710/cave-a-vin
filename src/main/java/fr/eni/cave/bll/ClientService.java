@@ -1,6 +1,6 @@
 package fr.eni.cave.bll;
 
-import fr.eni.cave.bo.Client;
+import fr.eni.cave.bo.client.Client;
 
 public interface ClientService {
 

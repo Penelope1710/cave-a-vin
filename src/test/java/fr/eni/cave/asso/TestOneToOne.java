@@ -1,7 +1,7 @@
 package fr.eni.cave.asso;
 
 import fr.eni.cave.bo.Adresse;
-import fr.eni.cave.bo.Client;
+import fr.eni.cave.bo.client.Client;
 import fr.eni.cave.dal.AdresseRepository;
 import fr.eni.cave.dal.ClientRepository;
 import jakarta.persistence.EntityManager;

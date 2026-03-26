@@ -1,6 +1,6 @@
 package fr.eni.cave.bll;
 
-import fr.eni.cave.bo.Client;
+import fr.eni.cave.bo.client.Client;
 import fr.eni.cave.dal.ClientRepository;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
