@@ -1,5 +1,6 @@
 package fr.eni.cave.bo;
 
+import fr.eni.cave.bo.client.Client;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -35,4 +36,8 @@ public class Panier {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @Builder.Default
     private List<LignePanier> lignesPanier = new ArrayList<>();
+
+    @ManyToOne(cascade = {CascadeType.PERSIST}, fetch =  FetchType.EAGER)
+    @JoinColumn(name = "LOGIN")
+    private Client client;
 }

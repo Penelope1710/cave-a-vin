@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import fr.eni.cave.bo.Bouteille;
-import fr.eni.cave.bo.Couleur;
-import fr.eni.cave.bo.Region;
+import fr.eni.cave.bo.vin.Bouteille;
+import fr.eni.cave.bo.vin.Couleur;
+import fr.eni.cave.bo.vin.Region;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
