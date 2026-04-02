@@ -17,7 +17,7 @@ public class LignePanier {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "LINE_ID")
+    @Column(name = "SHOPPING_CART_ID")
     private Integer id;
 
     @Column(name = "QUANTITY")

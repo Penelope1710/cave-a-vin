@@ -22,12 +22,16 @@ public class Utilisateur {
     @Column(name = "LOGIN", length = 255, nullable = false)
     private String pseudo;
 
-    @Column(name = "PASSWORD", length = 150, nullable = false)
-    private String password;
-
     @Column(name = "LAST_NAME", length = 90, nullable = false)
     private String nom;
 
     @Column(name = "FIRST_NAME",  length = 150, nullable = false)
     private String prenom;
+
+    @Column(name = "PASSWORD", length = 150, nullable = false)
+    private String password;
+
+    @Column(name = "AUTHORITY")
+    private String authority;
+
 }

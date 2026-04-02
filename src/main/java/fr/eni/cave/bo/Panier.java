@@ -20,7 +20,7 @@ public class Panier {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "SHOPPING_CART_ID")
+    @Column(name = "CLIENT_ID")
     private Integer id;
 
     @Column(name = "ORDER_NUMBER", length = 200)

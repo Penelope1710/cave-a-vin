@@ -1,9 +1,9 @@
 package fr.eni.cave.jpql;
 
-import fr.eni.cave.bo.Bouteille;
-import fr.eni.cave.bo.Couleur;
 import fr.eni.cave.bo.LignePanier;
-import fr.eni.cave.bo.Region;
+import fr.eni.cave.bo.vin.Bouteille;
+import fr.eni.cave.bo.vin.Couleur;
+import fr.eni.cave.bo.vin.Region;
 import fr.eni.cave.dal.LignePanierRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
