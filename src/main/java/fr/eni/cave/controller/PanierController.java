@@ -2,7 +2,7 @@ package fr.eni.cave.controller;
 
 import java.util.List;
 
-import fr.eni.cave.bo.Panier;
+import fr.eni.cave.bo.client.Panier;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 

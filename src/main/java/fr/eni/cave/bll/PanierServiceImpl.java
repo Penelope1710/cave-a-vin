@@ -3,8 +3,8 @@ package fr.eni.cave.bll;
 import java.util.List;
 import java.util.Optional;
 
-import fr.eni.cave.bo.LignePanier;
-import fr.eni.cave.bo.Panier;
+import fr.eni.cave.bo.client.LignePanier;
+import fr.eni.cave.bo.client.Panier;
 import org.springframework.stereotype.Service;
 
 import fr.eni.cave.bo.client.*;

@@ -1,7 +1,7 @@
 //package fr.eni.cave.jpql;
 //
-//import fr.eni.cave.bo.LignePanier;
-//import fr.eni.cave.bo.Panier;
+//import fr.eni.cave.bo.client.LignePanier;
+//import fr.eni.cave.bo.client.Panier;
 //import fr.eni.cave.bo.client.Client;
 //import fr.eni.cave.bo.vin.Bouteille;
 //import fr.eni.cave.bo.vin.Couleur;

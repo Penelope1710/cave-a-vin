@@ -2,7 +2,7 @@ package fr.eni.cave.asso;
 
 import fr.eni.cave.bo.vin.Bouteille;
 import fr.eni.cave.bo.vin.Couleur;
-import fr.eni.cave.bo.LignePanier;
+import fr.eni.cave.bo.client.LignePanier;
 import fr.eni.cave.bo.vin.Region;
 import fr.eni.cave.dal.BouteilleRepository;
 import fr.eni.cave.dal.LignePanierRepository;

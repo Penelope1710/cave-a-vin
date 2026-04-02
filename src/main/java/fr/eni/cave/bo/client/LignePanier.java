@@ -1,4 +1,4 @@
-package fr.eni.cave.bo;
+package fr.eni.cave.bo.client;
 
 import fr.eni.cave.bo.vin.Bouteille;
 import jakarta.persistence.*;

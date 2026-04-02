@@ -1,6 +1,6 @@
 package fr.eni.cave.jpql;
 
-import fr.eni.cave.bo.LignePanier;
+import fr.eni.cave.bo.client.LignePanier;
 import fr.eni.cave.bo.vin.Bouteille;
 import fr.eni.cave.bo.vin.Couleur;
 import fr.eni.cave.bo.vin.Region;
